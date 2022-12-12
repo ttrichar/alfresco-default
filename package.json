@@ -1,5 +1,5 @@
 {
-  "name": "@fathym-it/alfresco-default",
+  "name": "@fathym-hyland/alfresco-default",
   "version": "0.0.4",
   "blueprint": "Content Services",
   "description": "ACS ADF Application with Angular CLI",
