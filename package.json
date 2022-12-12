@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "blueprint": "Content Services",
   "description": "ACS ADF Application with Angular CLI",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve app --open",
