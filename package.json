@@ -1,6 +1,6 @@
 {
-  "name": "adf-cli-acs-template",
-  "version": "5.1.0",
+  "name": "@fathym-it/alfresco-default",
+  "version": "0.0.0",
   "blueprint": "Content Services",
   "description": "ACS ADF Application with Angular CLI",
   "license": "Apache-2.0",
@@ -9,6 +9,8 @@
     "start": "ng serve app --open",
     "build": "ng build app",
     "build:dist": "ng build app --configuration=production",
+    "deploy": "npm version patch && npm run deploy:app",
+    "deploy:app": "npm version patch --prefix src && npm run build:dist && npm publish ./build --access public",
     "test": "ng test app",
     "postinstall": "ngcc"
   },
