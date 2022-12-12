@@ -48,6 +48,11 @@
               "src/favicon-96x96.png",
               "src/app.config.json",
               {
+                  "glob": "package.json",
+                  "input": "./src/",
+                  "output": "/"
+              },
+              {
                 "glob": "**/*",
                 "input": "resources",
                 "output": "/resources"
@@ -156,6 +161,11 @@
               "src/favicon-96x96.png",
               "src/app.config.json",
               "src/versions.json",
+              {
+                  "glob": "package.json",
+                  "input": "./src/",
+                  "output": "/"
+              },
               {
                 "glob": "**/*",
                 "input": "resources",

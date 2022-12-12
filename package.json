@@ -10,7 +10,7 @@
     "build": "ng build app",
     "build:dist": "ng build app --configuration=production",
     "deploy": "npm version patch && npm run deploy:app",
-    "deploy:app": "npm version patch --prefix src && npm run build:dist && npm publish ./build --access public",
+    "deploy:app": "npm version patch --prefix src && npm run build:dist && npm publish ./dist --access public",
     "test": "ng test app",
     "postinstall": "ngcc"
   },
